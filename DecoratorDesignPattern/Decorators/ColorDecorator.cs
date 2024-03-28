@@ -13,7 +13,7 @@ namespace DecoratorDesignPattern.Decorators
 
         public override string GetText()
         {
-            return $"\u001b[31m{base.GetText()}\u001b[0m";
+            return $"\u001b[35m{base.GetText()}\u001b[0m"; // Colour: 35m (purple)
         }
     }
 }

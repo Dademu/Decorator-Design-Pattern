@@ -6,7 +6,7 @@ namespace DecoratorDesignPattern.Components
     {
         public string GetText()
         {
-            return "Hello, world!";
+            return "My Name is Omodademu Awoyelu";
         }
     }
 }
